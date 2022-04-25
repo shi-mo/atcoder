@@ -3,3 +3,9 @@ indent_type='space'
 indent_width=4
 workspace_dir='~/work/atcoder/'
 lang='d'
+[compiler]
+compile_command='dmd -de -w main; rm main.o'
+compile_only_when_diff_detected=true
+[tester]
+compile_before_testing=true
+compile_only_when_diff_detected=true
