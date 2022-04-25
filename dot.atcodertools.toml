@@ -1,0 +1,5 @@
+[codestyle]
+indent_type='space'
+indent_width=4
+workspace_dir='~/work/atcoder/'
+lang='d'
