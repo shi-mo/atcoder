@@ -1,0 +1,3 @@
+<% srand(20220427) -%>
+<% words = %w{dream dreamer erase eraser} -%>
+<%= (0...20000).to_a.map{ words[rand(4)] }.join('') %>
