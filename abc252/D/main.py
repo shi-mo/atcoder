@@ -3,8 +3,6 @@ import sys
 from collections import defaultdict
 
 def solve(N: int, A: "List[int]"):
-    if len(set(A)) <= 2: return 0
-
     count_of = defaultdict(lambda: 0)
     for ai in A:
         count_of[ai] += 1
